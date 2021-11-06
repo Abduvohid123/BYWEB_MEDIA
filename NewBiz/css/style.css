@@ -162,7 +162,7 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: 7px 0;
-  max-height: 26px;
+  max-height: 46px;
 }
 
 .main-pages {
@@ -212,7 +212,7 @@ h6 {
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 32px;
-  border-radius: 50px;
+  border-radius: 5px;
   transition: 0.5s;
   margin: 0 20px 20px 0;
   color: #fff;
@@ -235,9 +235,9 @@ h6 {
 }
 
 #intro .intro-info .btn-services:hover {
-  background: #007bff;
-  border-color: #007bff;
-  color: #fff;
+  background: #fff;
+  border-color: #fff;
+  color: #000;
 }
 
 /*--------------------------------------------------------------
@@ -616,8 +616,18 @@ h6 {
   left: -10px;
   top: calc(50% - 32px);
 }
+#services .service_svg {
+  position: absolute;
+  left: -10px;
+  top: calc(50% - 32px);
+}
 
 #services .icon i {
+  font-size: 64px;
+  line-height: 1;
+  transition: 0.5s;
+}
+#services .service_svg img {
   font-size: 64px;
   line-height: 1;
   transition: 0.5s;
@@ -1424,5 +1434,8 @@ h6 {
   padding-top: 120px;
 }
 .bot_svg img{
+  width: 13%;
+}
+.service_svg img{
   width: 13%;
 }
