@@ -1120,8 +1120,8 @@ h6 {
 }
 
 #contact .social-links a:hover {
-  background: #007bff;
-  color: #fff;
+  background: #fff;
+  color: #111;
 }
 
 #contact .info {
@@ -1183,7 +1183,7 @@ h6 {
 }
 
 #contact .form button[type="submit"] {
-  background: #007bff;
+  background: #111;
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
@@ -1201,14 +1201,14 @@ h6 {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #00428a;
+  background: #111;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #004a99;
+  background: #111;
   padding: 60px 0 30px 0;
 }
 
@@ -1239,7 +1239,7 @@ h6 {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #007bff;
+  background: #111;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1252,8 +1252,8 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #0067d5;
-  color: #fff;
+  background: #fff;
+  color: #111;
 }
 
 #footer .footer-top h4 {
