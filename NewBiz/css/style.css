@@ -1389,7 +1389,7 @@ h6 {
 
 .page-section {
     position: relative;
-    padding-top: 80px;
+    padding-top: 20px;
     padding-bottom: 80px;
     color: #898798;
     overflow: hidden;
@@ -1568,4 +1568,15 @@ h1, h2, h3, h4, h5, h6 {
         max-width: 1120px;
     }
 }
+.price_p{
+    margin-bottom: 8px;
+}
 
+@media screen and (min-width: 1200px){
+    .price_card2{
+        padding-bottom: 13% !important;
+    }
+}
+.komron_jpg{
+    transform: rotate(-20deg);
+}
